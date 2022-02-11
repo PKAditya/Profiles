@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne"/>
+    <title>Links website</title>
+    <style>
+      body {
+
+        background-image: url("01.jpg"); /* The image used for background*/
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-position: center; /* Center the image */
+         /* Resize the background image to cover the entire container */
+        font-family: "Syne", sans-serif;
+      }
+
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .image-container {
+        text-align: center;
+        width: 100%;
+      }
+
+      .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .link {
+        min-width: 50% !important;
+      }
+
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 1140px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          max-width: 720px;
+        }
+
+        .link {
+          width: 100%;
+        }
+      }
+      @media (min-width: 576px) {
+        .container {
+          max-width: 540px;
+        }
+      }
+
+      .w3-yellow,
+      .w3-hover-purple:hover,
+      .w3-text-black {
+        color: rgba(255, 204, 217) !important;
+        background-color: rgba(255, 255, 179, 0.3) !important;
+      }
+    </style>
+  </head>
+
+  <body class="w3-white">
+    <!-- Content container -->
+    <div class="container">
+      <!-- Image and name container. Change to your picture here. -->
+      <div class="image-container">
+        <img
+          src="p1.jpeg"
+          class="w3-margin"
+          alt="p1.jpeg"
+          max-width="150%"
+
+          height="150px"
+          style="border-radius: 2000%"
+        />
+
+        <!-- Content. Add bio. -->
+        <div class="w3-text-white">
+          <p class="w3-large"><strong>P KNGSS Aditya</strong></p>
+        </div>
+
+        <!-- Links section 1. Replace the # inside of the "" with your links. -->
+        <div class="links-container">
+          <a href="https://www.instagram.com/kngss_aditya/" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-text-pink w3-yellow link" target="_blank">Instagram<img src = "Instagram.png" width="40" height="40"></a>
+          <a href="https://www.facebook.com/aditya.pappala.75" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-text-blue w3-yellow link" target="_blank">facebook<img src = "facebook.png" width="40" height="40"></a>
+          <a href="https://wa.me/qr/SHIEFJKDW7L5M1" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-text-green w3-pale w3-yellow link" target="_blank">Whatsapp<img src = "WhatsApp.png" width="40" height="40"></a>
+          <a href="https://github.com/PKAditya" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-text-black w3-pink link" target="_blank">Github<img src = "GitHub.png" width="40" height="40"></a>
+        </div>
+      </div>
+    </div>
+
+    
+      <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+      <footer class="w3-container w3-center w3-padding-48 w3-margin-top">
+        <a class="w3-margin-bottom" href="https://www.w3schools.com/spaces" title="This website was made with W3schools Spaces. Make your own free website today!" target="_blank">
+          <img style="filter: brightness(0) invert(1);" src="" width="0" height="0">
+          <img style="filter: brightness(0) invert(1);" src="" width="0.01" height="0.01">
+          <img style="filter: brightness(0) invert(1);" src="" width="0.02" height="0.02">
+        </a> 
+      <!-- End footer -->
+      </footer>
+    </div>
+  </body>
+</html>
